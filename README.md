@@ -1,4 +1,3 @@
-
 <h1 align="center">
   <br>
   <a href="https://github.com/OpenParenthesisClosed/OWCompanion"><img src="https://raw.githubusercontent.com/OpenParenthesisClosed/OWCompanion/develop/owcompanion_logo_colored.png" alt="LogoOWCompanion" width="200"></a>
@@ -36,8 +35,11 @@
   <a href="#related">Related</a> •
   <a href="#license">License</a>
 </p>
-
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
+<br>
+<p align="center" width="100%">
+    <img src="https://raw.githubusercontent.com/OpenParenthesisClosed/OWCompanion/develop/owc_v1_screenrecording.gif">
+</p>
+<br>
 
 ## Key Features
 
