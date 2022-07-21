@@ -37,7 +37,7 @@
 </p>
 <br>
 <p align="center" width="100%">
-    <img src="https://thumbs.gfycat.com/FatherlyFarBaiji-size_restricted.gif">
+    <img width="15%" src="https://thumbs.gfycat.com/FatherlyFarBaiji-size_restricted.gif">
 </p>
 <br>
 
