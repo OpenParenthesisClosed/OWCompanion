@@ -11,6 +11,7 @@ import FirebaseFirestore
 class fighterViewModel: ObservableObject{
      
     @Published var fighters = [Fighter]()
+    @Published var searchResults: [Fighter] = []
     
     private var db = Firestore.firestore()
      

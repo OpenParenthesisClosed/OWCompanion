@@ -12,7 +12,6 @@ import Firebase
 struct HomeView: View {
     
     @EnvironmentObject var viewRouter: ViewRouter
-    
     @State var signOutProcessing = false
     
     var body: some View {
@@ -20,8 +19,8 @@ struct HomeView: View {
             FighterList()
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
-                        Image(systemName: "person.crop.circle")
-                            .foregroundColor(Color.limeGreenColor)
+                        Image(systemName: "line.3.horizontal")
+                            .foregroundColor(Color.textColors)
                     }
                     ToolbarItem(placement: .navigationBarTrailing){
                         if signOutProcessing {
