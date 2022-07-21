@@ -97,9 +97,9 @@ This software uses the following open source packages:
 - [Swift](https://developer.apple.com/xcode/swift/)
 - [Firebase](https://firebase.google.com)
 
-## Related -- coming soon
+## Related
 
-[OWCompanion-web](https://github.com/OpenParenthesisClosed/OWCompanion) - Web version of OWCCompanion
+[OWCompanion-web](https://github.com/OpenParenthesisClosed/OWCompanion) - Web version of OWCCompanion coming soon
 
 ## Support
 
