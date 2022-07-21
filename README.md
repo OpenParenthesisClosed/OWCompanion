@@ -11,13 +11,13 @@
 <p align="center">
   <a href="https://developer.apple.com/swift/">
     <img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white"
-         alt="Gitter">
+         alt="Swift">
   </a>
   <a href="https://firebase.google.com">
     <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white&backgroundColor=yellow">
   </a>
-  <a href="">
-  <img src="https://img.shields.io/github/license/OpenParenthesisClosed/OWCompanion?color=yellow&style=for-the-badge"
+  <a href="https://github.com/OpenParenthesisClosed/OWCompanion/blob/main/LICENSE.md">
+  <img src="https://img.shields.io/github/license/OpenParenthesisClosed/OWCompanion?style=for-the-badge"
   </a>
   <a href="https://www.reddit.com/r/EASportsUFC/">
       <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white">
