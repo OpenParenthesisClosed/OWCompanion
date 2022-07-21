@@ -12,7 +12,6 @@ class fighterViewModel: ObservableObject{
      
     @Published var fighters = [Fighter]()
     @Published var searchResults: [Fighter] = []
-    
     private var db = Firestore.firestore()
      
     func fetchData() {
@@ -33,7 +32,7 @@ class fighterViewModel: ObservableObject{
                 let lastName = data["lastName"] as? String ?? ""
                 let gender = data["gender"] as? String ?? ""
 //                let weightClass = data["weightClass"] as? Collection ?? "0":"", "1":""
-                let type = data["data"] as? String ?? ""
+                let type = data["type"] as? String ?? ""
                 let overall = data["overall"] as? Double ?? 0
                 let strikingOverall = data["strikingOverall"] as? Double ?? 0
                 let grappleOverall = data["grappleOverall"] as? Double ?? 0
