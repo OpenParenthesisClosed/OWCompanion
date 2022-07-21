@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/OpenParenthesisClosed/OWCompanion"><img src="https://raw.githubusercontent.com/OpenParenthesisClosed/OWCompanion/develop/owcompanion_logo_colored.png" alt="LogoOWCompanion" width="200"></a>
+  <a href="https://github.com/OpenParenthesisClosed/OWCompanion"><img src="https://github.com/OpenParenthesisClosed/OWCompanion/blob/main/assets/owcompanion_logo_colored.png?raw=true" alt="LogoOWCompanion" width="200"></a>
   <br>
   OWCompanion
   <br>
@@ -37,7 +37,7 @@
 </p>
 <br>
 <p align="center" width="100%">
-    <img src="https://raw.githubusercontent.com/OpenParenthesisClosed/OWCompanion/develop/owc_v1_screenrecording.gif">
+    <img src="https://thumbs.gfycat.com/FatherlyFarBaiji-size_restricted.gif">
 </p>
 <br>
 
