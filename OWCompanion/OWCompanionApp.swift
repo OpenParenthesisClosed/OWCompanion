@@ -1,17 +1,26 @@
-//
-//  OWCompanionApp.swift
-//  OWCompanion
-//
-//  Created by Furkan Türkmen on 18/07/2022.
-//
+/*
+OWCompanionApp.swift
+OWCompanion
+
+Created by Furkan Türkmen on 20/07/2022.
+*/
+
 
 import SwiftUI
+import Firebase
 
 @main
 struct OWCompanionApp: App {
+    
+    @StateObject var viewRouter = ViewRouter()
+    
+    init() {
+        FirebaseApp.configure()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ViewSwichter().environmentObject(viewRouter)
         }
     }
 }
