@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/OpenParenthesisClosed/OWCompanion"><img src="https://raw.githubusercontent.com/OpenParenthesisClosed/OWCompanion/develop/owcompanion_logo_colored.png" alt="LogoOWCompanion" width="200"></a>
+  <a href="https://github.com/OpenParenthesisClosed/OWCompanion"><img src="https://github.com/OpenParenthesisClosed/OWCompanion/blob/main/assets/owcompanion_logo_colored.png?raw=true" alt="LogoOWCompanion" width="200"></a>
   <br>
   OWCompanion
   <br>
@@ -11,13 +11,13 @@
 <p align="center">
   <a href="https://developer.apple.com/swift/">
     <img src="https://img.shields.io/badge/swift-F54A2A?style=for-the-badge&logo=swift&logoColor=white"
-         alt="Gitter">
+         alt="Swift">
   </a>
   <a href="https://firebase.google.com">
     <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=Firebase&logoColor=white&backgroundColor=yellow">
   </a>
-  <a href="">
-  <img src="https://img.shields.io/github/license/OpenParenthesisClosed/OWCompanion?color=yellow&style=for-the-badge"
+  <a href="https://github.com/OpenParenthesisClosed/OWCompanion/blob/main/LICENSE.md">
+  <img src="https://img.shields.io/github/license/OpenParenthesisClosed/OWCompanion?style=for-the-badge"
   </a>
   <a href="https://www.reddit.com/r/EASportsUFC/">
       <img src="https://img.shields.io/badge/Reddit-%23FF4500.svg?style=for-the-badge&logo=Reddit&logoColor=white">
@@ -37,7 +37,7 @@
 </p>
 <br>
 <p align="center" width="100%">
-    <img src="https://raw.githubusercontent.com/OpenParenthesisClosed/OWCompanion/develop/owc_v1_screenrecording.gif">
+    <img width="15%" src="https://thumbs.gfycat.com/FatherlyFarBaiji-size_restricted.gif">
 </p>
 <br>
 
@@ -97,9 +97,9 @@ This software uses the following open source packages:
 - [Swift](https://developer.apple.com/xcode/swift/)
 - [Firebase](https://firebase.google.com)
 
-## Related -- coming soon
+## Related
 
-[OWCompanion-web](https://github.com/OpenParenthesisClosed/OWCompanion) - Web version of OWCCompanion
+[OWCompanion-web](https://github.com/OpenParenthesisClosed/OWCompanion) - Web version of OWCCompanion coming soon
 
 ## Support
 
