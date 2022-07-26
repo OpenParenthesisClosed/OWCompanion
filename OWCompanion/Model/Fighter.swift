@@ -12,14 +12,37 @@
 import Foundation
 import SwiftUI
 
-struct Fighter: Hashable, Codable, Identifiable {
+struct Fighter: Codable, Identifiable {
     let id: String
     let isFavorite, isLegend, isDLC: Bool
-    let firstName, nickName, lastName, gender: String
-//    let weightClass: [String: String]
-    let type: String
-    let overall, strikingOverall, grappleOverall, healthOverall: Double
+    let firstName, nickName, lastName, gender, weightClass, type: String
     
+    // General info
+    let fightingOutOf, height, hometown, reach, stance, weight: String
+    let age: Int
+    
+    // Overalls
+    let overall, standupOverall, grapplingOverall, healthOverall: Double
+    
+    // Standup stats
+    let accuracy, blocking, footWork, headMovement, kickPower, kickSpeed, punchPower, punchSpeed, switchStance, takedownDefense: Int
+    
+    // Grappling stats
+    let bottomControl, clinchControl, clinchStriking, groundStriking, submissions, submissionsDefense, takedowns, topControl: Int
+    
+    // Health stats
+    let body, cardio, chin, legs, recovery: Int
+    
+    // Perks
+    var perks: [String: String]
+    
+    var perksKeys, perksValues, topMovesKeys: String
+    var topMovesValues: Int
+    
+    // Top moves
+    var topMoves: [String: Int]
+
+    // Image
     var imageName: String
     var image: Image {
         Image(imageName)

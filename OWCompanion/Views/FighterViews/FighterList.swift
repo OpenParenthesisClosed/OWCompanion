@@ -14,9 +14,9 @@ struct FighterList: View {
     
     var listData: [Fighter]{
         if searchTerm.isEmpty{
-            return viewModel.fighters
+            return viewModel.fighters.sorted(by: self.viewModel.sortFighterOnLastName)
         } else {
-            return viewModel.searchResults
+            return viewModel.searchResults.sorted(by: self.viewModel.sortFighterOnLastName)
         }
     }
     

@@ -79,9 +79,7 @@ struct SignInView: View {
                     viewRouter.currentView = .homeView
                 }
             }
-            
         }
-
     }
 }
 
