@@ -14,4 +14,5 @@ extension Color {
     static let buttonTextColors = Color("ButtonTextColors")
     static let backgroundColors = Color("BackgroundColors")
     static let limeGreenColor = Color("LimeGreenColor")
+    static let tabBarColors = Color("TabBarColors")
 }

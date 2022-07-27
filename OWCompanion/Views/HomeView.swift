@@ -18,15 +18,11 @@ struct HomeView: View {
         NavigationView {
             FighterList()
                 .toolbar {
-                    ToolbarItem(placement: .navigationBarLeading) {
-                        Image(systemName: "line.3.horizontal")
-                            .foregroundColor(Color.textColors)
-                    }
                     ToolbarItem(placement: .navigationBarTrailing){
                         if signOutProcessing {
                             ProgressView()
                         } else {
-                            Button("Sign Out") {
+                            Button("Log out") {
                                 signOutUser()
                             }
                         }
@@ -53,6 +49,8 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        Group {
+            HomeView()
+        }
     }
 }
