@@ -92,11 +92,6 @@ class fighterViewModel: ObservableObject{
                 // Top moves
                 let topMoves = data["topMoves"] as? [String: Int]
                 
-                let perksKeys = perks?.keys as? String ?? "nil"
-                let perksValues = perks?.values as? String ?? "nil"
-                
-                let topMovesKeys = topMoves?.keys as? String ?? "nil"
-                let topMovesValues = topMoves?.values as? Int ?? 0
                 
                 return Fighter(
                                id: id,
@@ -144,10 +139,6 @@ class fighterViewModel: ObservableObject{
                                legs: legs,
                                recovery: recovery,
                                perks: perks!,
-                               perksKeys: perksKeys,
-                               perksValues: perksValues,
-                               topMovesKeys: topMovesKeys,
-                               topMovesValues: topMovesValues,
                                topMoves: topMoves!,
                                imageName: imageName)
             }

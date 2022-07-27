@@ -36,9 +36,6 @@ struct Fighter: Codable, Identifiable {
     // Perks
     var perks: [String: String]
     
-    var perksKeys, perksValues, topMovesKeys: String
-    var topMovesValues: Int
-    
     // Top moves
     var topMoves: [String: Int]
 
@@ -46,5 +43,17 @@ struct Fighter: Codable, Identifiable {
     var imageName: String
     var image: Image {
         Image(imageName)
+    }
+    
+    var sortedPerks: [(String, String)] {
+        perks.keys.compactMap { key in
+            perks[key] != nil ? (key, perks[key]!) : nil
+        }
+    }
+    
+    var sortedTopMoves: [(String, Int)] {
+        topMoves.keys.compactMap { key in
+            topMoves[key] != nil ? (key, topMoves[key]!) : nil
+        }
     }
 }

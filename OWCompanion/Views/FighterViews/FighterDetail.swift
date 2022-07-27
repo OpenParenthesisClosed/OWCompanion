@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct FighterDetail: View {
-    @State var fighter: Fighter
+    var fighter: Fighter
     
     @ObservedObject private var viewModel = fighterViewModel()
     
@@ -52,7 +52,12 @@ struct FighterDetail: View {
                 VStack{
                     Text("Health rating: \(fighter.healthOverall.formatted())\nBody: \(fighter.body)\nCardio: \(fighter.cardio)\nChin: \(fighter.chin)\nLegs: \(fighter.legs)\nRecovery: \(fighter.recovery)\nPerks:")
 
-                    Text("Perks: \(fighter.perks.keys.first as? String ?? "N/A")")
+                    ForEach(fighter.sortedPerks, id: \.0) { (key, value) in
+                        Text("\(key): \(value)")
+                    }
+                    ForEach(fighter.sortedTopMoves, id: \.0) { (key, value) in
+                        Text("\(key): \(value)")
+                    }
                 }
             }
         }.onAppear(){
@@ -64,9 +69,9 @@ struct FighterDetail: View {
         }
         .padding()
     }
-    func testMyFFunc(){
-        for (key, value) in fighter.perks {
-            print("\(key):                \(value)")
-        }
+}
+extension String: Identifiable {
+    public var id: String {
+        self
     }
 }
